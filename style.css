@@ -1,0 +1,69 @@
+
+                                                                   /* own */ 
+.sub-container{
+    background-color:rgb(215 215 227);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+input{
+    margin-bottom: 7%;
+    width: 213px;
+    color: crimson;
+    font-size: 19px;
+    margin-top: 7%;
+    background-color: #9ae3ff;
+    height: 37px;
+    border-color: #9ae3ff;
+}
+.butSubCont{
+    height: 34px;
+    width: 105px;
+    color: crimson;
+    font-weight: bold;
+    background-color: black;
+    border-color: black;
+    box-shadow: 3px 2px 8px crimson;
+    border-radius: 5px;
+}
+.display{
+    background-color: #0093ff;
+    width: 100%;
+    margin-top: 3%;
+    height: 50%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#budgetTable{
+  width: 70%;
+  margin-left: 15%;
+}
+.expenseList{
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    background-color: beige;
+    margin-top: 3%;
+    padding: 2%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+th{
+  padding-left: 40px;
+}
+td{
+  padding-left: 40px;
+}
+
+.{
+    color: grey;
+    width: 80%;
+    text-align: center;
+    height: 5px;
+}
+  
