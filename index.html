@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sub-container">
+            <div class="budget">
+                <h3>Budeget : </h3></br>
+                <p id="budget-error">The Value Should Be Greater Than ZERO</p>
+                <input type="number" id="total-amount" placeholder="Enter the Budeget"></br>
+                <button onclick="TotalAmountButtonFunc()" class="butSubCont" id="total-amount-button">Add Budeget</button>
+            </div>
+                <div class="expenses">
+                </br></br>
+                    <h3>Expense : </h3></br>
+                    <p id="product-title-error">Budeget Amount Should not Be 0</p>
+                <input type="text" id="product-title" placeholder="Enter the categorie"></br>
+                <input type="text" id="user-amount" placeholder="Enter the cost of product"></br>
+                <input type="date" id="user-Date" placeholder="Enter the Date of Expense"></br>
+                <button onclick="ExpenseRemainingButtonFunc()" class="butSubCont" id="check-amount">Add Expense</button>
+
+            </div>
+            </div>
+            <div class="display">
+                <table  id="budgetTable" border="1">
+                    <thead>
+                        <tr >
+                            <th >Due Date</th>
+                            
+                            <th>categorie</th>
+                            
+                            <th>Cost</th>
+                            
+                            <th>Total Budget</th>
+                            
+                            <th>Remaining Balance</th>
+                            
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+
+            </div>
+            
+            </div>
+        
+    </div>
+</body>
+</html> 
+
+
+
+
+
+                                                                       
+
+
